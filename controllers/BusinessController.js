@@ -8,6 +8,8 @@ routes.get("/", async(req, res)=>{
 })
 
 routes.post("/", async(req,res)=>{
+    // console.log(req);
+    
     delete req.body.repassword ;
     req.body.password = sha1(req.body.password) ;
     await Bus.create(req.body);

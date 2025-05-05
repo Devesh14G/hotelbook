@@ -21,6 +21,8 @@ const Login = () => {
 
         },
         onSubmit : (FormData)=>{
+            // console.log(FormData);
+            
             setPreloader(true);
 
             axios
