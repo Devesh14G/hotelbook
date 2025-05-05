@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(require("./allRoutes/AllRoutes"));
 app.use(express.static(__dirname + "/assets"));
 
-const port = process.env.PORT ||  3000  ;
+const port = process.env.PORT ||  2500  ;
 app.listen(port, () => {
     console.log("Server Running With Port",port);
 })

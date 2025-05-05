@@ -1,5 +1,5 @@
 require ("mongoose")
-.connect("mongodb+srv://deveshtss11-30:devesh123@cluster0.xgpqp.mongodb.net/")
+.connect("mongodb+srv://devesh140301gautam:s2364NnUzzAhH5hB@cluster0.oa2zbuk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 .then(()=>{
     console.log("CONNECTED");
 })
@@ -14,11 +14,7 @@ require ("mongoose")
 
 
 
+// devesh140301gautam
+// s2364NnUzzAhH5hB
 
-/*
-user name :  ankurjoshi
-password  :  1991ankur
-// mongodb+srv://ankurjoshi:<db_password>@cluster0.cf4ov.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
-
-*/
+// mongodb+srv://devesh140301gautam:<db_password>@cluster0.oa2zbuk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
