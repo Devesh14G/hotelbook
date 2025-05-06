@@ -26,7 +26,7 @@ routes.post('/', async (req, res) => {
         let otp = uid.UniqueOTP(4);
 
         let mailOption = {
-            from: '"Ankur" <ankurjoshi1991@gmail.com>',
+            from: '"Devesh" <devesh140301gautam@gmail.com>',
             to: email,
             subject: "OTP For Change Password",
             html: "<h3>" + otp + "</h3>"
