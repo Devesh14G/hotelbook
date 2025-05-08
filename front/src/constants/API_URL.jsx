@@ -2,8 +2,8 @@
 
 
 
-const API_URL = 'https://hotelbook-jql4.onrender.com/api/v1';
-const API_PATH = 'https://hotelbook-jql4.onrender.com';
+const API_URL = 'https://hotelbook-vc1y.onrender.com/api/v1';
+const API_PATH = 'https://hotelbook-vc1y.onrender.com';
 
 // const API_PATH = "http://localhost:3000" ;
 
