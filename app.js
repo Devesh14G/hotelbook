@@ -16,6 +16,11 @@ app.use(express.urlencoded({extended:true}));
 app.use(require("./allRoutes/AllRoutes"));
 app.use(express.static(__dirname + "/assets"));
 
+
+app.get("*", (req, res)=>{
+    res.sendFile("index.html", {root});
+})
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log("Server Running With Port",port);
