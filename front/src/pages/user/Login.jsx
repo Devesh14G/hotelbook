@@ -93,6 +93,12 @@ const Login = () => {
                             <button type='submit' className="button btn-orange text-light">LOGIN { preloader ? <span className='spinner-border spinner-border-sm'></span> : '' }</button> 
                             <p className='text-center text-danger'>{errMsg}</p>
                             <NavLink to='/forgot-password'>Forgot Your Password !</NavLink>
+
+
+
+
+
+                            
                         </div>
                     </div>
                 </div>
